@@ -1,3 +1,4 @@
-# My Awesome Book
+# Tutorial básico de programação em Smart Contracts
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Nesse tutorial são apresentados os passos iniciais da configuração de ambiente para o desenvolvimento de aplicações baseadas em Smart Contracts, programação de contratos utilizando a linguagem de programaçãos Solidity e deploy na testnet \(Rinkeby\).
+
