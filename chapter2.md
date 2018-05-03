@@ -60,7 +60,7 @@ contract SampleContract {
         numero = x;
     }
 
-    function get() constant public returns (uint) {
+    function get() public constant returns (uint) {
        return numero;
     }
 }
