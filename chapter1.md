@@ -61,5 +61,13 @@ npm -v
 node -v
 ```
 
+### Instalação do framework Truffle
+
+Nesse tutorial utilizaremos o framework Truffle que permite a execução de comandos para interagir com a blockchain do Ethereum. Para isto execute o comando :
+
+```
+sudo npm install -g truffle
+```
+
 
 
