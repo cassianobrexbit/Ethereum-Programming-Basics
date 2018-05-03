@@ -10,37 +10,35 @@ Para testar, Basta copiar o contrado do diretório **source **e clicar em **Star
 
 Em seguida, para conectar o compilador à rede e publicar o contrato na tesnet, acesse a aba **Run**. Selecione a opção **Web3 Provider**. Ele será redirecionado para o nó \(endpoint\) sincronizado com a rede no seu computador.
 
-![](/assets/Screenshot from 2018-05-03 00-38-50.png)
+![](/assets/remix2.png)
 
 Em seguida clique **OK **e confirme a URL do seu endpoint \(é padrão, não são necessárias alterações nessa parte\).
 
-![](/assets/Screenshot from 2018-05-03 00-44-19.png)
+![](/assets/remix4b.png)
 
 Confirme a URL do seu endpoint:
 
-![](/assets/Screenshot from 2018-05-03 00-44-39.png)
+![](/assets/remix3.png)
 
 Se a conexão do compilador com o seu endpoint ocorrer sem problemas, o ambiente selecionado deverá apontar para  a testnet Rinkeby. Automaticamente ele exibirá o endereço que você criou anteriormente e o saldo em Ethereum.
 
 Observação: é necessário que a conta esteja desbloqueada.
 
-![](/assets/Screenshot from 2018-05-03 00-45-02.png)
+![](/assets/remix5.png)
 
 Por fim, para realizar o deploy do contrato na rede testnet, clique em **Create** e aguarde alguns segundos até o contrato ser publicado na blockchain. Você pode acompanhar o log da operação no espaço abaixo da área onde o contrato é digitado.
 
-![](/assets/Screenshot from 2018-05-03 00-45-45.png)
+![](/assets/remix5.png)
 
 Repare que foram criados dois botões. Esses botões interagem com os métodos que foram criados no contrato \(os nomes são os mesmos\). Para interagir com o contrato, informe um número no campo ao lado do botão **set **e clique para inserir. Em seguida, repare no log apresentando a transação submetida à rede.
 
-![](/assets/Screenshot from 2018-05-03 01-00-40.png)
+![](/assets/remix6.png)
 
 Após a transação ser publicada, clique no botão azul **get **para obter o valor inserido.
 
-![](/assets/Screenshot from 2018-05-03 01-01-54.png)
+![](/assets/remix7.png)
 
 Para verificar as informações da criação do contrato e inserção de valores no buscador de blocos da Etherscan, basta clicar nos links gerados no log.
-
-
 
 Por enquanto isso é tudo pessoal. Em breve completarei esse tutorial com exemplos de operações CRUD em contratos e criação de structs e arrays. Também falarei da interação entre contratos.
 
