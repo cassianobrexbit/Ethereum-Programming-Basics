@@ -55,12 +55,12 @@ pragma solidity ^0.4.18;
 contract SampleContract {
 
     uint numero;
-    
-    function set(uint x) {
+
+    function set(uint x) public {
         numero = x;
     }
-    
-    function get() constant returns (uint) {
+
+    function get() constant returns (uint) public {
        return numero;
     }
 }
