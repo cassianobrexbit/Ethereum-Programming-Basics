@@ -37,3 +37,11 @@ web3.personal.unlockAccount('seu_endereco_criado', 'minhasenhaforteounao', 15000
 
 As contas \(obviamente\) são criadas com o saldo zerado. Para obter Ethereum via faucets [acesse este link](https://faucet.rinkeby.io/) e siga as instruções. Você vai precisar do endereço criado no passo anterior.
 
+Para verificar o saldo do endereço:
+
+```
+web3.eth.getBalance('seu_endereco_criado')
+```
+
+
+
