@@ -43,5 +43,5 @@ Para verificar o saldo do endereço:
 web3.eth.getBalance('seu_endereco_criado')
 ```
 
-
+Para saber mais sobre comandos para interação com a blockchain, [acesse este link](https://github.com/ethereum/wiki/wiki/JavaScript-API).
 
