@@ -45,3 +45,7 @@ web3.eth.getBalance('seu_endereco_criado')
 
 Para saber mais sobre comandos para interação com a blockchain, [acesse este link](https://github.com/ethereum/wiki/wiki/JavaScript-API).
 
+### Criando um contrato simples
+
+No diretório **source **deste projeto você pode encontrar algumas amostras de contratos \(você pode acessar por [aqui](/source)\). Nesta primeira etapa vamos utilizar o contrato [SampleContract.sol](/source/SampleContract.sol)
+
