@@ -28,6 +28,8 @@ geth --rinkeby --syncmode "fast" --rpc --rpcapi db,eth,net,web3,personal --cache
 
 Obs: O tempo de sincronização vai depender da sua capacidade de hardware e banda de internet. Na minha instalação eu utilizei uma máquina com um processador Core i7 de 7° geração e uma conexão de 50 mbps. O tempo foi de cerca de 45 minutos.
 
+Obs²:Para verificar o número do último bloco da rede tesnet Rinkeby, acesse: [https://rinkeby.etherscan.io/](https://rinkeby.etherscan.io/).
+
 ### Instalação do NodeJS
 
 Para instalar o NodeJS no Ubuntu é necessário configurar o repositório de pacotes com o seguinte comando:
@@ -59,6 +61,14 @@ Para verificar a versão do node e do npm:
 ```
 npm -v
 node -v
+```
+
+### Instalação do framework Truffle
+
+Nesse tutorial utilizaremos o framework Truffle que permite a execução de comandos para interagir com a blockchain do Ethereum. Para isto execute o comando :
+
+```
+sudo npm install -g truffle
 ```
 
 
