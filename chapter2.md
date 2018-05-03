@@ -47,5 +47,24 @@ Para saber mais sobre comandos para interação com a blockchain, [acesse este l
 
 ### Criando um contrato simples
 
-No diretório **source **deste projeto você pode encontrar algumas amostras de contratos \(você pode acessar por [aqui](/source)\). Nesta primeira etapa vamos utilizar o contrato [SampleContract.sol](/source/SampleContract.sol)
+No diretório **source **deste projeto você pode encontrar algumas amostras de contratos \(você pode acessar por [aqui](/source)\). Nesta primeira etapa vamos utilizar o contrato [SampleContract.sol](/source/SampleContract.sol).
+
+```
+pragma solidity ^0.4.18;
+
+contract SampleContract {
+
+    uint numero;
+    
+    function set(uint x) {
+        numero = x;
+    }
+    
+    function get() constant returns (uint) {
+       return numero;
+    }
+}
+```
+
+
 
