@@ -1,11 +1,14 @@
 pragma solidity ^0.4.18;
 
 contract SampleContract {
-    uint storageData;
+
+    uint numero;
+    
     function set(uint x) {
-        storageData = x;
+        numero = x;
     }
+    
     function get() constant returns (uint) {
-        return storageData;
+        return numero;
     }
 }
