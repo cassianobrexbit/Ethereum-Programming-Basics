@@ -10,6 +10,8 @@ Após configurar o ambiente e sincronizar com a testnet, é necessário criar um
 //para criar um diretório
 mkdir eth-teste
 
+cd eth-teste
+
 //iniciar o diretório com o framework truffle
 truffle init
 ```
@@ -23,5 +25,15 @@ truffle console
 web3.personal.newAccount('minhasenhaforteounao')
 ```
 
+Obs: Anote este endereço para ser utilizado nas próximas etapas.
 
+Obs²:  Altere a senha \(se quiser, é testnet, não faz diferença\).
+
+Para publicar contatos e interagir com a blockchain é necessário desbloquear a a conta, para isso execute:
+
+```
+web3.personal.unlockAccount('seu_endereco_criado', 'minhasenhaforteounao', 15000)
+```
+
+As contas \(obviamente\) são criadas com o saldo zerado. Para obter Ethereum via faucets [acesse este link](https://faucet.rinkeby.io/) e siga as instruções. Você vai precisar do endereço criado no passo anterior.
 
