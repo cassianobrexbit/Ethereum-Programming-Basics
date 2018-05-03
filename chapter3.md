@@ -6,9 +6,9 @@ Neste capítulo vamos tratar da compilação do contrato e a publicação na tes
 
 ![](/assets/remix1.png)
 
-Basta copiar o contrado do diretório **source **e clicar em **Start to compile** ou marcar a opção **Auto compile**, que compila automaticamente o contrato assim que ele é editado.
+Para testar, Basta copiar o contrado do diretório **source **e clicar em **Start to compile** ou marcar a opção **Auto compile**, que compila automaticamente o contrato assim que ele é editado.
 
-Em seguida, para publicar o contrato na tesnet acesse a aba **Run**.
+Em seguida, para conectar o compilador à rede e publicar o contrato na tesnet, acesse a aba **Run**. Selecione a opção **Web3 Provider**. Ele será redirecionado para o nó \(endpoint\) sincronizado com a rede no seu computador.
 
 ![](/assets/Screenshot from 2018-05-03 00-38-50.png)
 
@@ -16,11 +16,11 @@ Em seguida clique **OK **e confirme a URL do seu endpoint \(é padrão, não sã
 
 ![](/assets/Screenshot from 2018-05-03 00-44-19.png)
 
-URL do seu endpoint:
+Confirme a URL do seu endpoint:
 
 ![](/assets/Screenshot from 2018-05-03 00-44-39.png)
 
-Se a conexão do compilador com o seu endpoint ocorrer sem problemas, o ambiente selecionado deverá apontar para o endpoint conectado com a testnet Rinkeby. Automaticamente ele exibirá o endereço que você criou anteriormente e o saldo em Ethereum.
+Se a conexão do compilador com o seu endpoint ocorrer sem problemas, o ambiente selecionado deverá apontar para  a testnet Rinkeby. Automaticamente ele exibirá o endereço que você criou anteriormente e o saldo em Ethereum.
 
 Observação: é necessário que a conta esteja desbloqueada.
 
@@ -39,4 +39,8 @@ Após a transação ser publicada, clique no botão azul **get **para obter o va
 ![](/assets/Screenshot from 2018-05-03 01-01-54.png)
 
 Para verificar as informações da criação do contrato e inserção de valores no buscador de blocos da Etherscan, basta clicar nos links gerados no log.
+
+
+
+Por enquanto isso é tudo pessoal. Em breve completarei esse tutorial com exemplos de operações CRUD em contratos e criação de structs e arrays. Também falarei da interação entre contratos.
 
