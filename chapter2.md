@@ -56,11 +56,11 @@ contract SampleContract {
 
     uint numero;
 
-    function set(uint x) public {
+    function set(uint x) public{
         numero = x;
     }
 
-    function get() constant returns (uint) public {
+    function get() constant public returns (uint) {
        return numero;
     }
 }
