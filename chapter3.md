@@ -42,5 +42,5 @@ Para verificar as informações da criação do contrato e inserção de valores
 
 Por enquanto isso é tudo pessoal. Em breve completarei esse tutorial com exemplos de operações CRUD em contratos e criação de structs e arrays. Também falarei da interação entre contratos.
 
-[Index](/SUMMARY.md)                                                                                               [Capítulo 2](//chapter2.md)                                                                                  [Capítulo 4](//chapter4.md)
+[Index](/SUMMARY.md) [Capítulo 2](/chapter2.md) [Capítulo 4](/chapter4.md)
 

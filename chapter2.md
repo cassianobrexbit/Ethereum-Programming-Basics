@@ -66,5 +66,5 @@ contract SampleContract {
 }
 ```
 
-[Index](/SUMMARY.md)                                                                                                  [Capítulo 1](//chapter1.md)                                                                               [Capítulo 3](//chapter3.md)
+[Index](/SUMMARY.md) [Capítulo 1](/chapter1.md) [Capítulo 3](/chapter3.md)
 

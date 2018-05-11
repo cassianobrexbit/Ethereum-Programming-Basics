@@ -172,5 +172,5 @@ function getRegisterAtIndex(uint index)
 
 Por enquanto é tudo pessoal, no próximo capítulo mostrarei como funciona a interação entre contatos e a utilização de array de contratos.
 
-[Index](/SUMMARY.md)                                                                                             [Capítulo 3 ](//chapter3.md)                                                                                  
+[Index](/SUMMARY.md) [Capítulo 3](/chapter3.md) 
 
