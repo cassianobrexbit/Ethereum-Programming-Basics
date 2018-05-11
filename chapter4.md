@@ -21,7 +21,7 @@ struct EquipmentStruct{
 //omitted
 ```
 
-Nesta struct temos três atributos, sendo uma descrição, a unidade de medida e quantidade. Os tipos de váriáveis dentro da struct são **bytes32** e **bytes16 **para strings e **uint** para com números inteiros. Esses valores são definidos por meio de métodos setters do contrato.
+Nesta struct temos três atributos, sendo uma descrição, a unidade de medida e quantidade. Os tipos de váriáveis dentro da struct são **bytes32** e **bytes16** para strings e **uint** para com números inteiros. Esses valores são definidos por meio de métodos setters do contrato.
 
 ### Arrays
 
@@ -66,7 +66,7 @@ Observe que não há um campo de identificador único na struct _RegisterStruct_
         registerStructs[registerUuid].registerDestination = registerDestination;
         registerStructs[registerUuid].registerNumber = registerNumber;
         registerStructs[registerUuid].index = registerIndex.push(registerUuid)-1;
-        
+
         emit LogNewRegister(
             registerUuid, 
             registerStructs[registerUuid].index, 
@@ -117,7 +117,7 @@ function getRegister(bytes16 registerUuid)
         constant
         returns(uint registerNumber, bytes32 registerOwnerName, bytes16 registerOrigin, bytes16 registerDestination, uint equipmentsIndex, uint index)
     {
-       
+
         return(
 
             registerStructs[registerUuid].registerNumber,
@@ -127,7 +127,7 @@ function getRegister(bytes16 registerUuid)
             registerStructs[registerUuid].equipmentsIndex,  
             registerStructs[registerUuid].index
         );
-} 
+}
 ```
 
 Para obter as informações sobre o array de equipamentos de um registro, é necessário informar o identificador do registro e o índice do equipamento a ser buscado. Uma dica para obter toda a lista de equipamentos é implementar utilizando o web3.js um loop que varre todo o _equipmentsIndex_ utilizando como condição de parada o tamanho do array de equipamentos de um registro.
@@ -135,7 +135,7 @@ Para obter as informações sobre o array de equipamentos de um registro, é nec
 ```
 function getEquipments(bytes16 rUuid, uint eIndex) public constant returns(bytes32 eDesc, uint eQuant, bytes16 eUnit)
     {
-        
+
         return(
             registerStructs[rUuid].equipmentStructs[eIndex].equipmentDescription,
             registerStructs[rUuid].equipmentStructs[eIndex].equipmentQuantity,
